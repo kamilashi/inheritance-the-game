@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HackingTool
+comment1.params=
+comment1.target=HackingTool()
+comment2.params=
+comment2.target=boolean\ hack()
+comment3.params=guessCode
+comment3.target=boolean\ tryGuess(int)
+comment4.params=guessCode\ bulls\ cows
+comment4.target=void\ printTable(int,\ int,\ int)
+comment5.params=min\ max
+comment5.target=int\ getRandomNumberInRange(int,\ int)
+numComments=6

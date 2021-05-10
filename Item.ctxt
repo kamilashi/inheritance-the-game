@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=name\ description\ score\ weight\ isCasket
+comment1.target=Item(java.lang.String,\ java.lang.String,\ int,\ int,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getShortDescription()
+comment2.text=\r\n\ methods\:\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getScore()
+comment5.params=
+comment5.target=int\ getWeight()
+comment6.params=
+comment6.target=boolean\ getIsCasket()
+comment7.params=
+comment7.target=Item\ getContainedItem()
+comment8.params=
+comment8.target=void\ printDescription()
+numComments=9

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\r\n\ Class\ Room\ -\ a\ room\ in\ an\ adventure\ game.\r\n\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ A\ "Room"\ represents\ one\ location\ in\ the\ scenery\ of\ the\ game.\ \ It\ is\ \r\n\ connected\ to\ other\ rooms\ via\ exits.\ \ For\ each\ existing\ exit,\ the\ room\ \r\n\ stores\ a\ reference\ to\ the\ neighboring\ room.\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 2016.02.29\r\n
+comment1.params=description
+comment1.target=Room(java.lang.String)
+comment1.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n\ @param\ description\ The\ room's\ description.\r\n
+comment2.params=direction\ neighbor
+comment2.target=void\ setExit(java.lang.String,\ Room)
+comment2.text=\r\n\ Define\ an\ exit\ from\ this\ room.\r\n\ @param\ direction\ The\ direction\ of\ the\ exit.\r\n\ @param\ neighbor\ \ The\ room\ to\ which\ the\ exit\ leads.\r\n
+comment3.params=item
+comment3.target=void\ setItem(Item)
+comment4.params=
+comment4.target=java.lang.String\ getDescription()
+comment4.text=\r\n\ @return\ The\ short\ description\ of\ the\ room\r\n\ (the\ one\ that\ was\ defined\ in\ the\ constructor).\r\n
+comment5.params=
+comment5.target=void\ printDescription()
+comment5.text=\r\n\ Return\ a\ description\ of\ the\ room\ in\ the\ form\:\r\n\ \ \ \ \ You\ are\ in\ the\ kitchen.\r\n\ \ \ \ \ Exits\:\ north\ west\r\n\ @return\ A\ long\ description\ of\ this\ room\r\n
+comment6.params=
+comment6.target=java.lang.String\ getExitString()
+comment6.text=\r\n\ Return\ a\ string\ describing\ the\ room's\ exits,\ for\ example\r\n\ "Exits\:\ north\ west".\r\n\ @return\ Details\ of\ the\ room's\ exits.\r\n
+comment7.params=direction
+comment7.target=Room\ getExit(java.lang.String)
+comment7.text=\r\n\ Return\ the\ room\ that\ is\ reached\ if\ we\ go\ from\ this\ room\ in\ direction\r\n\ "direction".\ If\ there\ is\ no\ room\ in\ that\ direction,\ return\ null.\r\n\ @param\ direction\ The\ exit's\ direction.\r\n\ @return\ The\ room\ in\ the\ given\ direction.\r\n
+comment8.params=itemName
+comment8.target=Item\ extractItem(java.lang.String)
+numComments=9
