@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=Casket
-comment0.text=\r\n\ \u0421lass\ Casket\ is\ inherited\ from\ its\ main\ Item\ class.\r\n
-comment1.params=name\ description\ score\ weight\ isCasket\ containedItem
-comment1.target=Casket(java.lang.String,\ java.lang.String,\ int,\ int,\ boolean,\ Item)
-comment2.params=
-comment2.target=Item\ getContainedItem()
-numComments=3

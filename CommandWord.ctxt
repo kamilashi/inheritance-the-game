@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=CommandWord
-comment1.params=commandString
-comment1.target=CommandWord(java.lang.String)
-comment2.params=
-comment2.target=java.lang.String\ toString()
-comment2.text=\n\ @return\ The\ command\ word\ as\ a\ string.\n
-numComments=3
