@@ -1,7 +1,7 @@
 # linheritance: the game
 Laboratory task for the Software Construction course.
 
-To launch the project, either *run the run.bat file* or:
+To launch the project, either clone the main branch and *run the run.bat file* or:
 
 - switch to the build branch
 - download and unpack the Inheritance.zip
