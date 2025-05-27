@@ -18,7 +18,7 @@ public class HackingTool implements Serializable
     public HackingTool()
     {
         this.trueCode = getRandomNumberInRange(100,999);
-        System.out.println("the generated true code: " + trueCode + " here for testing");
+        //System.out.println("the generated true code: " + trueCode + " here for testing");
     }
     
     public boolean hack()
